@@ -4,9 +4,9 @@ import './Person.css';
 
 
 class Person extends React.Component{
-  constructor() {
+  constructor(props) {
     console.log("constructor()");
-    super();
+    super(props);
     this.state = {
       timer: 0,
       interval: null,
